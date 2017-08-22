@@ -1,0 +1,66 @@
+{
+  "src/home-page/home-page.html": {},
+  "src/home-page/desc-page.html": {
+    "src/ui-elements/skill-display.html": {
+      "type": "document",
+      "weight": 1
+    }
+  },
+  "src/home-page/contact-page.html": {
+    "src/ui-elements/social-box.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/ui-elements/linkedin-icon.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/ui-elements/codepen-icon.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/ui-elements/twitter-icon.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/ui-elements/github-icon.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/ui-elements/medium-icon.html": {
+      "type": "document",
+      "weight": 1
+    }
+  },
+  "src/home-page/page-footer.html": {},
+  "src/ui-elements/menu-drawer.html": {},
+  "src/ui-elements/codepen-icon.html": {},
+  "src/ui-elements/github-icon.html": {},
+  "src/ui-elements/linkedin-icon.html": {},
+  "src/ui-elements/medium-icon.html": {},
+  "src/ui-elements/page-scroller.html": {},
+  "src/ui-elements/skill-display.html": {},
+  "src/ui-elements/social-box.html": {
+    "src/ui-elements/linkedin-icon.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/ui-elements/codepen-icon.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/ui-elements/twitter-icon.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/ui-elements/github-icon.html": {
+      "type": "document",
+      "weight": 1
+    },
+    "src/ui-elements/medium-icon.html": {
+      "type": "document",
+      "weight": 1
+    }
+  },
+  "src/ui-elements/twitter-icon.html": {},
+}

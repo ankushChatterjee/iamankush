@@ -1,0 +1,20 @@
+{
+  "name": "iamankush",
+  "description": "My Personal website",
+  "main": "index.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+    "social-links": "convoo/social-links#^0.0.2",
+    "paper-ripple": "PolymerElements/paper-ripple#^2.0.0",
+    "app-layout": "PolymerElements/app-layout#^2.0.0",
+    "l2t-paper-rating": "^1.2.0"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^6.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+  },
+  "resolutions": {
+    "polymer": "2.0.0",
+    "webcomponentsjs": "^v1.0.0"
+  }
+}

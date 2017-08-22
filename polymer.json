@@ -1,0 +1,33 @@
+{
+  "lint": {
+    "rules": [
+      "polymer-2"
+    ]
+  },
+  "entrypoint": "index.html",
+  "shell": "src/home-page/home-page.html",
+  "fragments": [
+    "src/home-page/home-page.html",
+    "src/home-page/desc-page.html",
+    "src/home-page/contact-page.html",
+    "src/home-page/page-footer.html",
+    "src/ui-elements/menu-drawer.html",
+    "src/ui-elements/codepen-icon.html",
+    "src/ui-elements/github-icon.html",
+    "src/ui-elements/linkedin-icon.html",
+    "src/ui-elements/medium-icon.html",
+    "src/ui-elements/page-scroller.html",
+    "src/ui-elements/skill-display.html",
+    "src/ui-elements/social-box.html",
+    "src/ui-elements/twitter-icon.html"
+  ],
+  "sources": [
+    "src/**/*",
+    "images/*",
+    "favicon.ico"
+  ],
+  "extraDependencies": [
+    "manifest.json",
+    "bower_components/webcomponentsjs/*.js"
+  ]
+}

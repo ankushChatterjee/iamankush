@@ -1,0 +1,73 @@
+<link rel="import" href="../../bower_components/polymer/polymer-element.html">
+
+<dom-module id="page-footer">
+  <template>
+    <style>
+      :host{
+        width:100vw;
+        background: #263238;
+        color:white;
+        position: absolute;
+        top: 300vh;
+        left: 0px;
+      }
+      @media screen and (max-width: 440px) {
+        :host{
+          top: 381vh;
+        }
+      }
+      @media screen and (max-width: 550px) and (min-width:440px) {
+        :host{
+          top: 370vh;
+        }
+      }
+      @media screen and (max-height: 440px) {
+        :host{
+          top: 430vh;
+        }
+      }
+      .copyright{
+        width:100vw;
+        text-align: center;
+        display: inline-block;
+        padding-top: 0.5%;
+        padding-bottom: 0.5%;
+        font-size: 0.8em;
+      }
+    </style>
+    <span class="copyright">
+      © 2017 Ankush Chatterjee
+    </span>
+    <span class="copyright">
+      Medium Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+    </span>
+    <span class="copyright">
+    LinkedIn Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+    </span>
+    <span class="copyright">
+      Github Icons made by <a href="http://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+    </span>
+    <span class="copyright">
+      Twitter Icons made by <a href="http://www.flaticon.com/authors/madebyoliver" title="Madebyoliver">Madebyoliver</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+    </span>
+    <span class="copyright">
+     Codepen Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a>
+    </span>
+  </template>
+
+  <script>
+    /**
+     * @customElement
+     * @polymer
+     */
+    class PageFooter extends Polymer.Element {
+      static get is() { return 'page-footer'; }
+      static get properties() {
+        return {
+          
+        };
+      }
+    }
+    window.customElements.define(PageFooter.is, PageFooter);
+  </script>
+</dom-module>

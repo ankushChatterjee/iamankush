@@ -1,0 +1,27 @@
+{
+  "name": "iamankush",
+  "short_name": "iamankush",
+  "description": "My Personal website",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color":"#880E4F",
+  "orientation":"potrait",
+  "background_color":"black",
+  "icons":[
+    {
+      "src":"images/logo-144x144.png",
+      "sizes":"144x144",
+      "type":"image/png"
+    },
+    {
+      "src":"images/logo-192x192.png",
+      "sizes":"192x192",
+      "type":"image/png"
+    },
+    {
+      "src":"images/logo-512x512.png",
+      "sizes":"512x512",
+      "type":"image/png"
+    }
+  ]
+}
