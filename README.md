@@ -1,7 +1,7 @@
 # \<iamankush\>
 
 This is the first version of my personal Website.
-This is an offline ready PWA.
+This is an offline ready Progressive Web App, with 100/100 Lighthouse PWA score.
 
 ## Install the Polymer-CLI
 
